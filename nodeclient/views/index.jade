@@ -1,0 +1,70 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to the magical world
+
+  // Wrapper
+  #wrapper
+    
+    
+    // USER INFO
+    #userInfo
+      h2 Student Info
+      p
+      table
+       tr 
+        td 
+         strong Name:&nbsp;&nbsp;&nbsp;|
+        td  <span id='userInfoName'></span>
+        tr
+         td
+          strong Age: &nbsp;&nbsp;&nbsp;&nbsp; |
+         td  <span id='userInfoAge'></span>
+        tr
+         td
+          strong Gender:  |
+          td <span id='userInfoGender'></span>
+        
+    // /USER INFO
+
+    
+    // USER LIST
+    #userList
+    h2 Hogwards houses
+    table 
+      thead
+        th Gryffindor
+        th Hufflepuff
+        th Ravenclaw
+        th Slytherin
+      tbody
+          tr 
+            <td id='Gryffindor'></td>
+            <td id='Hufflepuff'></td>
+            <td id='Ravenclaw'></td>
+            <td id='Slytherin'></td>
+
+    // /USER LIST
+    
+    // ADD USER
+    
+    img.className#IdName(src="/images/img2.png" alt="" width="200px" height="200px" align="right")
+    
+    #addUser
+    
+      fieldset 
+        h3 Put on the sorting hat
+        br
+        input#inputUserName(type='text', placeholder='StudentName')
+        br
+        input#inputUserAge(type='text', placeholder='Age')
+        br
+        input#inputUserGender(type='text', placeholder='gender')
+        br
+        button#btnAddUser SORT
+    // /ADD USER
+
+    
+
+  // /WRAPPER
