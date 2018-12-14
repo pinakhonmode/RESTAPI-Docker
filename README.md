@@ -1,5 +1,5 @@
 # RESTAPI-Docker: "Hogwarts School Of Witchcraft And Wizardary!"
-+ It's time to get dsorted in you belonged Hogwarts House! Put on the sorting hat to begin!!
++ It's time to get sorted in you belonged Hogwarts House! Put on the sorting hat to begin!!
 + In the beginning, Run the server in the docker container
 + Now run the client in the docker container
 + Add students and see them getting sorted the Hogwart's Houses i.e Gryffindor, Hufflepuff, Ravenclaw and Slytherin!
